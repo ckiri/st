@@ -1,6 +1,6 @@
 # st - simple terminal
 
-Modyfied version of st from https://st.suckless.org
+Patched and configured version of st from https://st.suckless.org
 
 Following patches are installed:
 
