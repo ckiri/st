@@ -9,7 +9,7 @@ Following patches are installed:
 
 Terminal Colors are also slightly different, here is the palette:
 
-[![16 Terminal Colors](colors.png)]
+![16 Terminal Colors](colors.png)
 
 (dark colors are boosted to make them more visible on the black background)
 
