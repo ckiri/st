@@ -4,8 +4,8 @@ Patched version with own configuration of st from https://st.suckless.org
 
 Following patches are installed:
 
-* **[scrollback][https://st.suckless.org/patches/alpha]** - scroll function `Shift`+{`PageUp`,`PageDown`} or mousewheel
-* **[alpha][https://st.suckless.org/patches/scrollback]** - change opacity of the background (composite manager needed)
+* **[scrollback](https://st.suckless.org/patches/scrollback)** - scroll function `Shift`+{`PageUp`,`PageDown`} or mousewheel
+* **[alpha](https://st.suckless.org/patches/alpha)** - change opacity of the background (composite manager needed)
 
 Terminal Colors are also slightly different, here is the palette:
 
