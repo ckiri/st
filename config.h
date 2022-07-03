@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Terminus:pixelsize=18:antialias=true:autohint=true";
+static char *font = "Noto Sans Mono:pixelsize=18:antialias=true:autohint=true";
 static int borderpx = 0;
 
 /*
@@ -94,12 +94,11 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 1;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 
-	
 // Default
 	// 8 normal colors 
 	"black",//"#121212",//"#000000",//"black",
@@ -125,14 +124,15 @@ static const char *colorname[] = {
 	// more colors can be added after 255 to use with DefaultXX
 	"#cccccc",
 	"#555555",
-	"gray90", // default foreground colour 
-	"black", // default background colour
+	"#eeeeee", // default foreground colour 
+	"#121212", // default background colour
 };
 
 /*
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
+
 unsigned int defaultfg = 258;
 unsigned int defaultbg = 259;
 unsigned int defaultcs = 256;
